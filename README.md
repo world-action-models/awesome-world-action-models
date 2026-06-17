@@ -1,57 +1,82 @@
-# Awesome World Action Models [![Awesome](assets/badges/awesome.svg)](https://awesome.re)
+<div align="center">
 
-> A curated, continuously updated list of **World Action Models (WAMs)** — predictive-action models that make a forecast of the future available to action.
+<h1>Awesome World Action Models</h1>
 
-![Papers](assets/badges/papers.svg) ![PRs Welcome](assets/badges/prs.svg) ![Maintained](assets/badges/maintained.svg)
+<p>
+  <a href="https://awesome.re"><img src="assets/badges/awesome.svg" alt="Awesome"></a>
+  <img src="assets/badges/papers.svg" alt="109 papers">
+  <img src="assets/badges/prs.svg" alt="PRs welcome">
+  <img src="assets/badges/maintained.svg" alt="Maintained">
+</p>
 
-This list accompanies our survey and mirrors its taxonomy, so every entry sits in the same design-philosophy lane the paper uses. It is meant for two audiences: **readers** who want to find WAM papers fast, and **researchers** who want to **[add their own WAM paper](#contributing)** to the collection.
+<p><strong>A curated list of papers on World Action Models (WAMs).</strong></p>
+<p>WAMs predict a future signal and keep that prediction in the path that produces, scores, trains, or checks actions.</p>
+
+<h2>World Action Models: A Survey</h2>
+<p><em>Dream Less, Act More</em></p>
+
+<p><strong>Qiuhong Shen, Shihua Zhang, Yue Liao, Qi Li, Zhenxiong Tan, Shizun Wang,<br>Shuicheng Yan, Xinchao Wang<sup>&dagger;</sup></strong></p>
+<p><em>National University of Singapore</em> &nbsp;|&nbsp; <sup>&dagger;</sup>Corresponding author</p>
+
+<p>
+  <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf-large.svg" alt="Read the survey PDF" height="48"></a>
+</p>
+
+<p>
+  <a href="https://world-action-models.github.io/"><img src="assets/badges/homepage.svg" alt="Homepage"></a>
+  <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf.svg" alt="PDF"></a>
+  <a href="#"><img src="assets/badges/arxiv.svg" alt="arXiv coming soon"></a>
+</p>
+
+</div>
 
 ---
 
-## 📖 The Survey
+## Why This Repo Exists
 
-### World Action Models: A Survey
-#### *Dream Less, Act More*
+This repository is the paper list behind the survey. It is designed for quick browsing: find a WAM paper, see which family it belongs to, and compare its backbone, prediction target, and main idea. New WAM papers can be added through a pull request.
 
-**Qiuhong Shen, Shihua Zhang, Yue Liao, Qi Li, Zhenxiong Tan, Shizun Wang, Shuicheng Yan, Xinchao Wang†**
+## Survey Highlights
 
-*National University of Singapore* &nbsp;·&nbsp; †Corresponding author
+- **The rule is simple:** a model is a WAM when its predicted future is used by the action path. The future may help produce, score, train, or check actions.
+- **The survey uses two views.** One view asks what the method predicts. The other breaks each method into substrate, backbone, action coupling, and deployment style.
+- **The list has three families:** **Render-and-Decode** (58), **Latent-Only** (38), and **Video-Generation-Free** (13).
+- **The trend is easy to see:** newer methods often generate less of the future when control does not need full video. The ⚡ mark highlights papers with an explicit speed, memory, or data-efficiency move.
+- **The paper connects the list to broader questions** about interaction, causality, persistence, physical plausibility, data, evaluation, and open challenges.
 
-[![Homepage](assets/badges/homepage.svg)](https://world-action-models.github.io/) [![PDF](assets/badges/pdf.svg)](https://world-action-models.github.io/wam-survey-nus.pdf) [![arXiv](assets/badges/arxiv.svg)](#)
+## Timeline At A Glance
 
-> World Action Models (WAMs) are embodied predictive-action models that make a forecast of the future available to action. Recent WAMs repurpose large video generation models, while a parallel line relies on language or vision-language backbones without a video-generation core. This rapid expansion has blurred the boundary among broad world models, video generation models, action-grounded video world models, Vision-Language-Action policies, and WAMs. The survey gives the field a common account: it clarifies these boundaries, then organizes existing works through two complementary views, and closes with desiderata, data, evaluation, and open challenges.
+<p align="center">
+  <img src="assets/figures/wam-timeline.svg" alt="Timeline of World Action Model papers from 2023 to 2026 grouped by design philosophy." width="100%">
+</p>
 
-## ✨ Survey Highlights
+The figure counts papers in this README by first arXiv year. The 2026 count is year-to-date.
 
-- **A WAM is not just a video generator with an action head.** A model becomes a WAM the moment a *predicted future* becomes *action-facing* — used to produce, score, or train the action path. This crisp gate separates WAMs from generic world models, plain video generators, and direct Vision-Language-Action policies.
-- **Two complementary views, navigated together.** A **philosophy-level** view (§3) asks *what each method is required to generate*, and a **component-level** view (§4) decomposes each method by *predictive substrate, backbone, action coupling, and deployment regime*. Every WAM lands as a point under both views.
-- **Three design philosophies organize the whole field:** **Render-and-Decode** (58), **Latent-Only** (38), and **Video-Generation-Free** (13). The split itself is a finding: most WAMs descend from the video-world-model lineage.
-- **A consistent design pattern.** Each WAM choice trades representational richness against compute, memory, latency, and action-label cost — so the field is steadily moving toward **generating less of the future while preserving what control requires** (⚡ marks such efficiency moves in the tables below).
-- **One account, five desiderata.** The anatomy supports a unified discussion of **interactability, causality, persistence, physical plausibility, and generalization**, followed by data, evaluation, and open challenges.
+## How To Use This List
 
-## 🧭 How This List Is Organized
-
-Papers are grouped by the survey's **three design philosophies** (§3) and, within each group, listed **chronologically** so the field's evolution reads top-to-bottom. Columns expose the component-level axes (§4).
+Papers are grouped by the survey's three families and listed by first arXiv month. The columns expose the main comparison points used in the survey.
 
 | Column | Meaning |
 |:---|:---|
 | **Date** | First arXiv submission month (`YYYY-MM`). |
-| **Paper** | Title linked to arXiv. ⚡ marks an explicit efficiency move (latent interception, few-step or distilled generation, skipping test-time imagination, etc.). |
-| **Backbone** | The video / language foundation the WAM stands on, or the backbone that replaces it. |
-| **Substrate** | What the model predicts: pixels (decoded / latent), features, geometry, affordance, audio, … |
+| **Paper** | Title linked to arXiv. ⚡ marks an explicit speed, memory, or data-efficiency move. |
+| **Backbone** | The main video, language, vision-language, or policy model used by the method. |
+| **Substrate** | What the method predicts: pixels, features, geometry, affordance maps, audio, tokens, and related forms. |
 | **TL;DR** | One-line summary of the method. |
 
 ### At a glance
 
-| Design philosophy | Papers | What the model commits to generating |
+| Family | Papers | What it predicts |
 |:---|:---:|:---|
-| [Render-and-Decode](#render-and-decode) | 58 | The model commits to decoding an explicit future observation — RGB frames, RGB-D / multi-view video, or another rendered substrate — and the action path then reads, tracks, or inverts that rendered future. |
-| [Latent-Only](#latent-only) | 38 | The future is predicted but never fully rendered. Actions read an intermediate latent, a tapped denoising feature, a teacher embedding, or a structured carrier (flow, mask, value map), trading pixel fidelity for speed. |
-| [Video-Generation-Free](#video-generation-free) | 13 | No video-generation component in the loop. An LLM / VLM, a diffusion-policy, a JEPA / DINO latent predictor, or another non-video world model carries the predictive commitment and makes it action-facing. |
+| [Render-and-Decode](#render-and-decode) | 58 | A visible or rendered future, such as RGB video, RGB-D, or multi-view frames. |
+| [Latent-Only](#latent-only) | 38 | A hidden future representation, such as denoising features, teacher embeddings, flow, masks, or value maps. |
+| [Video-Generation-Free](#video-generation-free) | 13 | A non-video predictive signal from an LLM, VLM, diffusion policy, JEPA / DINO model, audio model, or geometric predictor. |
 | **Total** | **109** | ⚡ 27 papers carry an explicit efficiency move |
 
 **Contents**
 
+- [Why This Repo Exists](#why-this-repo-exists)
+- [Timeline At A Glance](#timeline-at-a-glance)
 - [Render-and-Decode](#render-and-decode) (58)
 - [Latent-Only](#latent-only) (38)
 - [Video-Generation-Free](#video-generation-free) (13)
@@ -63,7 +88,7 @@ Papers are grouped by the survey's **three design philosophies** (§3) and, with
 
 ## Render-and-Decode
 
-The model commits to **decoding an explicit future observation** — RGB frames, RGB-D / multi-view video, or another rendered substrate — and the action path then reads, tracks, or inverts that rendered future.
+These methods produce a visible or otherwise rendered future, such as RGB video, RGB-D, or multi-view frames. The action module then reads, tracks, or inverts that future.
 
 | Date | Paper | Backbone | Substrate | TL;DR |
 |:---|:---|:---|:---|:---|
@@ -130,7 +155,7 @@ The model commits to **decoding an explicit future observation** — RGB frames,
 
 ## Latent-Only
 
-The future is predicted but **never fully rendered**. Actions read an intermediate latent, a tapped denoising feature, a teacher embedding, or a structured carrier (flow, mask, value map), trading pixel fidelity for speed.
+These methods predict the future inside hidden states or compact signals instead of decoding full video. Actions use features, flow, masks, value maps, teacher embeddings, or similar carriers.
 
 | Date | Paper | Backbone | Substrate | TL;DR |
 |:---|:---|:---|:---|:---|
@@ -177,7 +202,7 @@ The future is predicted but **never fully rendered**. Actions read an intermedia
 
 ## Video-Generation-Free
 
-**No video-generation component in the loop.** An LLM / VLM, a diffusion-policy, a JEPA / DINO latent predictor, or another non-video world model carries the predictive commitment and makes it action-facing.
+These methods do not put a video generator in the loop. The useful future signal comes from an LLM, VLM, diffusion policy, JEPA / DINO predictor, audio model, geometric model, or another non-video predictor.
 
 | Date | Paper | Backbone | Substrate | TL;DR |
 |:---|:---|:---|:---|:---|
@@ -199,13 +224,13 @@ The future is predicted but **never fully rendered**. Actions read an intermedia
 
 ## Contributing
 
-Contributions are very welcome — this is meant to be a living list maintained by the WAM community. **Adding your paper takes one row.**
+Contributions are welcome. This is meant to be a living list maintained by the WAM community, and adding a paper usually takes one row.
 
-### Is it a WAM? (membership gate)
+### Should my paper be here?
 
-We follow the survey's definition. A paper qualifies if it carries an **explicit predictive commitment about a future observation** (or an observation-derived substrate — pixels, latents, features, flow, masks, affordance / value maps, audio, tokens) **and makes that future action-facing**, either at deployment or as the source of pseudo-actions / executable trajectories for a separately trained policy.
+We follow the survey's definition. A paper belongs here if it includes an **explicit prediction about a future observation or future-derived signal** (pixels, latents, features, flow, masks, affordance / value maps, audio, tokens, and so on) **and uses that future to produce, score, train, or check actions**.
 
-Out of scope (kept off the list): generic world-model simulators with no action-facing use, plain video generators, direct VLAs with no predicted future, and future heads that are discarded before any action use.
+Not included: generic world-model simulators with no action use, plain video generators, direct VLAs with no predicted future, and future heads that are discarded before action use.
 
 ### How to add a paper
 
@@ -245,4 +270,3 @@ If this list or the survey helps your research, please consider citing:
 ## License
 
 The curated content of this list is released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/). Linked papers remain under their respective authors' rights.
-

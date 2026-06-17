@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="48" viewBox="0 0 238 48" role="img" aria-label="Read the survey PDF">
+  <title>Read the survey PDF</title>
+  <rect x="1" y="1" width="236" height="46" rx="12" fill="#b31b1b"/>
+  <rect x="1" y="1" width="236" height="46" rx="12" fill="none" stroke="#8f1414" stroke-width="2"/>
+  <path d="M24 12h15l8 8v18a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="#fff"/>
+  <path d="M39 12v8h8" fill="none" stroke="#b31b1b" stroke-width="2" stroke-linejoin="round"/>
+  <text x="57" y="21" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">READ THE</text>
+  <text x="57" y="36" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">SURVEY PDF</text>
+  <path d="M214 16l8 8-8 8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M198 24h23" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">World Action Models timeline at a glance</title>
+  <desc id="desc">A timeline of 109 World Action Model papers from 2023 to 2026, grouped into Render-and-Decode, Latent-Only, and Video-Generation-Free categories.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcfe; }
+      .card { fill: #ffffff; stroke: #d9e0ea; stroke-width: 2; }
+      .grid { stroke: #dfe5ee; stroke-width: 2; stroke-dasharray: 6 8; }
+      .axis { stroke: #c9d3df; stroke-width: 4; stroke-linecap: round; }
+      .title { font: 800 34px Arial, Helvetica, sans-serif; fill: #17202a; }
+      .subtitle { font: 400 18px Arial, Helvetica, sans-serif; fill: #5b6674; }
+      .label { font: 800 20px Arial, Helvetica, sans-serif; fill: #17202a; }
+      .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #5b6674; }
+      .year { font: 800 18px Arial, Helvetica, sans-serif; fill: #344154; }
+      .count { font: 800 18px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .count-dark { font: 800 17px Arial, Helvetica, sans-serif; fill: #344154; }
+      .note { font: 400 14px Arial, Helvetica, sans-serif; fill: #6a7482; }
+      .chip-text { font: 800 15px Arial, Helvetica, sans-serif; fill: #17202a; }
+      .chip-sub { font: 400 13px Arial, Helvetica, sans-serif; fill: #6a7482; }
+      .render { fill: #2f72bd; }
+      .render-soft { fill: #e7f1ff; stroke: #2f72bd; }
+      .latent { fill: #d66a2f; }
+      .latent-soft { fill: #fff0e7; stroke: #d66a2f; }
+      .free { fill: #2f9a63; }
+      .free-soft { fill: #e9f7ef; stroke: #2f9a63; }
+      .empty { fill: #f1f4f8; stroke: #cbd4df; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="540"/>
+  <rect class="card" x="24" y="24" width="1152" height="492" rx="24"/>
+
+  <text class="title" x="64" y="74">World Action Models timeline</text>
+  <text class="subtitle" x="64" y="104">109 papers in this README, grouped by the survey taxonomy and first arXiv year.</text>
+
+  <rect class="render-soft" x="776" y="50" width="112" height="42" rx="12"/>
+  <text class="chip-text" x="832" y="70" text-anchor="middle">58</text>
+  <text class="chip-sub" x="832" y="86" text-anchor="middle">render</text>
+  <rect class="latent-soft" x="900" y="50" width="112" height="42" rx="12"/>
+  <text class="chip-text" x="956" y="70" text-anchor="middle">38</text>
+  <text class="chip-sub" x="956" y="86" text-anchor="middle">latent</text>
+  <rect class="free-soft" x="1024" y="50" width="112" height="42" rx="12"/>
+  <text class="chip-text" x="1080" y="70" text-anchor="middle">13</text>
+  <text class="chip-sub" x="1080" y="86" text-anchor="middle">gen-free</text>
+
+  <line class="grid" x1="330" y1="140" x2="330" y2="462"/>
+  <line class="grid" x1="560" y1="140" x2="560" y2="462"/>
+  <line class="grid" x1="790" y1="140" x2="790" y2="462"/>
+  <line class="grid" x1="1020" y1="140" x2="1020" y2="462"/>
+  <text class="year" x="330" y="134" text-anchor="middle">2023</text>
+  <text class="year" x="560" y="134" text-anchor="middle">2024</text>
+  <text class="year" x="790" y="134" text-anchor="middle">2025</text>
+  <text class="year" x="1020" y="134" text-anchor="middle">2026</text>
+
+  <text class="label" x="72" y="202">Render-and-Decode</text>
+  <text class="small" x="72" y="226">decoded futures</text>
+  <line class="axis" x1="304" y1="214" x2="1084" y2="214"/>
+  <circle class="render" cx="330" cy="214" r="23"/>
+  <text class="count" x="330" y="221" text-anchor="middle">4</text>
+  <circle class="render" cx="560" cy="214" r="26"/>
+  <text class="count" x="560" y="221" text-anchor="middle">6</text>
+  <circle class="render" cx="790" cy="214" r="35"/>
+  <text class="count" x="790" y="221" text-anchor="middle">17</text>
+  <circle class="render" cx="1020" cy="214" r="43"/>
+  <text class="count" x="1020" y="221" text-anchor="middle">31</text>
+
+  <text class="label" x="72" y="318">Latent-Only</text>
+  <text class="small" x="72" y="342">hidden features</text>
+  <line class="axis" x1="304" y1="330" x2="1084" y2="330"/>
+  <circle class="empty" cx="330" cy="330" r="10"/>
+  <text class="count-dark" x="330" y="336" text-anchor="middle">0</text>
+  <circle class="latent" cx="560" cy="330" r="22"/>
+  <text class="count" x="560" y="337" text-anchor="middle">3</text>
+  <circle class="latent" cx="790" cy="330" r="30"/>
+  <text class="count" x="790" y="337" text-anchor="middle">10</text>
+  <circle class="latent" cx="1020" cy="330" r="40"/>
+  <text class="count" x="1020" y="337" text-anchor="middle">25</text>
+
+  <text class="label" x="72" y="434">Video-Generation-Free</text>
+  <text class="small" x="72" y="458">non-video predictors</text>
+  <line class="axis" x1="304" y1="446" x2="1084" y2="446"/>
+  <circle class="empty" cx="330" cy="446" r="10"/>
+  <text class="count-dark" x="330" y="452" text-anchor="middle">0</text>
+  <circle class="empty" cx="560" cy="446" r="10"/>
+  <text class="count-dark" x="560" y="452" text-anchor="middle">0</text>
+  <circle class="free" cx="790" cy="446" r="24"/>
+  <text class="count" x="790" y="453" text-anchor="middle">5</text>
+  <circle class="free" cx="1020" cy="446" r="28"/>
+  <text class="count" x="1020" y="453" text-anchor="middle">8</text>
+
+  <text class="note" x="64" y="498">Bubble size follows the number of papers in each category and year. 2026 is year-to-date.</text>
+  <text class="note" x="1136" y="498" text-anchor="end">Current README total: 109 papers</text>
+</svg>
