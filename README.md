@@ -15,8 +15,8 @@
 <h2>World Action Models: A Survey</h2>
 <p><em>Dream Less, Act More</em></p>
 
-<p><strong>Qiuhong Shen, Shihua Zhang, Yue Liao, Qi Li, Zhenxiong Tan, Shizun Wang,<br>Shuicheng Yan, Xinchao Wang<sup>&dagger;</sup></strong></p>
-<p><em>National University of Singapore</em> &nbsp;|&nbsp; <sup>&dagger;</sup>Corresponding author</p>
+<p><strong>Qiuhong Shen, Shihua Zhang, Yue Liao, Qi Li, Zhenxiong Tan, Shizun Wang,<br>Shuicheng Yan, Xinchao Wang</strong></p>
+<p><em>National University of Singapore</em></p>
 
 <p>
   <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf-large.svg" alt="Read the survey PDF" height="48"></a>
