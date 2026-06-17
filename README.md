@@ -1,8 +1,8 @@
-# Awesome World Action Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome World Action Models [![Awesome](assets/badges/awesome.svg)](https://awesome.re)
 
 > A curated, continuously updated list of **World Action Models (WAMs)** — predictive-action models that make a forecast of the future available to action.
 
-![Papers](https://img.shields.io/badge/papers-109-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![Maintained](https://img.shields.io/badge/maintained-yes-success)
+![Papers](assets/badges/papers.svg) ![PRs Welcome](assets/badges/prs.svg) ![Maintained](assets/badges/maintained.svg)
 
 This list accompanies our survey and mirrors its taxonomy, so every entry sits in the same design-philosophy lane the paper uses. It is meant for two audiences: **readers** who want to find WAM papers fast, and **researchers** who want to **[add their own WAM paper](#contributing)** to the collection.
 
@@ -17,7 +17,7 @@ This list accompanies our survey and mirrors its taxonomy, so every entry sits i
 
 *National University of Singapore* &nbsp;·&nbsp; †Corresponding author
 
-[![Homepage](https://img.shields.io/badge/🌐-Homepage-1f6feb)](https://world-action-models.github.io/) [![PDF](https://img.shields.io/badge/📄-PDF-b31b1b)](https://world-action-models.github.io/wam-survey-nus.pdf) [![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-lightgrey)](#)
+[![Homepage](assets/badges/homepage.svg)](https://world-action-models.github.io/) [![PDF](assets/badges/pdf.svg)](https://world-action-models.github.io/wam-survey-nus.pdf) [![arXiv](assets/badges/arxiv.svg)](#)
 
 > World Action Models (WAMs) are embodied predictive-action models that make a forecast of the future available to action. Recent WAMs repurpose large video generation models, while a parallel line relies on language or vision-language backbones without a video-generation core. This rapid expansion has blurred the boundary among broad world models, video generation models, action-grounded video world models, Vision-Language-Action policies, and WAMs. The survey gives the field a common account: it clarifies these boundaries, then organizes existing works through two complementary views, and closes with desiderata, data, evaluation, and open challenges.
 

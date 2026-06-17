@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="20" role="img" aria-label="papers: 109">
+  <title>papers: 109</title>
+  <linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+  <clipPath id="r"><rect width="81" height="20" rx="3" fill="#fff"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="49" height="20" fill="#555"/>
+    <rect x="49" width="32" height="20" fill="#007ec6"/>
+    <rect width="81" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="110" transform="scale(.1)">
+    <text x="245" y="150" fill="#010101" fill-opacity=".3">papers</text>
+    <text x="245" y="140">papers</text>
+    <text x="650" y="150" fill="#010101" fill-opacity=".3">109</text>
+    <text x="650" y="140">109</text>
+  </g>
+</svg>
