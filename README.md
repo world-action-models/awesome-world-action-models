@@ -19,22 +19,17 @@
 <p><em>National University of Singapore</em></p>
 
 <p>
+  <a href="https://world-action-models.github.io/"><img src="assets/badges/homepage-large.svg" alt="Open the project homepage" height="48"></a>
   <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf-large.svg" alt="Read the survey PDF" height="48"></a>
 </p>
 
 <p>
-  <a href="https://world-action-models.github.io/"><img src="assets/badges/homepage.svg" alt="Homepage"></a>
-  <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf.svg" alt="PDF"></a>
   <a href="#"><img src="assets/badges/arxiv.svg" alt="arXiv coming soon"></a>
 </p>
 
 </div>
 
 ---
-
-## Why This Repo Exists
-
-This repository is the paper list behind the survey. It is designed for quick browsing: find a WAM paper, see which family it belongs to, and compare its backbone, prediction target, and main idea. New WAM papers can be added through a pull request.
 
 ## Survey Highlights
 
@@ -75,7 +70,6 @@ Papers are grouped by the survey's three families and listed by first arXiv mont
 
 **Contents**
 
-- [Why This Repo Exists](#why-this-repo-exists)
 - [Timeline At A Glance](#timeline-at-a-glance)
 - [Render-and-Decode](#render-and-decode) (58)
 - [Latent-Only](#latent-only) (38)

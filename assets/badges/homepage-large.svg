@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="48" viewBox="0 0 238 48" role="img" aria-label="Open the project homepage">
+  <title>Open the project homepage</title>
+  <rect x="1" y="1" width="236" height="46" rx="12" fill="#1f6feb"/>
+  <rect x="1" y="1" width="236" height="46" rx="12" fill="none" stroke="#1659c7" stroke-width="2"/>
+  <path d="M20 25.5 34 14l14 11.5v15a3 3 0 0 1-3 3H23a3 3 0 0 1-3-3z" fill="#fff"/>
+  <path d="M29 43V31h10v12" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M17 27 34 13l17 14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="61" y="19" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">OPEN THE</text>
+  <text x="61" y="34" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">HOMEPAGE</text>
+  <path d="M214 16l8 8-8 8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M198 24h23" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
