@@ -24,7 +24,7 @@
 </p>
 
 <p>
-  <a href="#"><img src="assets/badges/arxiv.svg" alt="arXiv coming soon"></a>
+  <a href="https://doi.org/10.20944/preprints202606.1403.v1"><img src="assets/badges/preprints.svg" alt="Preprints DOI"></a>
 </p>
 
 </div>
@@ -246,19 +246,22 @@ Drop the `⚡` unless the paper makes an explicit efficiency move. Keep the TL;D
 If this list or the survey helps your research, please consider citing:
 
 ```bibtex
-@article{wam_survey_2026,
-  title   = {World Action Models: A Survey},
-  author  = {Shen, Qiuhong and Zhang, Shihua and Liao, Yue and Li, Qi and
-             Tan, Zhenxiong and Wang, Shizun and Yan, Shuicheng and Wang, Xinchao},
-  year    = {2026},
-  note    = {Dream Less, Act More},
-  url     = {https://world-action-models.github.io/}
+@article{202606.1403,
+	doi = {10.20944/preprints202606.1403.v1},
+	url = {https://doi.org/10.20944/preprints202606.1403.v1},
+	year = 2026,
+	month = {June},
+	publisher = {Preprints},
+	author = {Qiuhong Shen and Shihua Zhang and Yue Liao and Qi Li and Zhenxiong Tan and Shizun Wang and Shuicheng Yan and Xinchao Wang},
+	title = {World Action Models: A Survey},
+	journal = {Preprints}
 }
 ```
 
 ## Related Resources
 
 - 🌐 **Survey homepage & interactive paper explorer:** https://world-action-models.github.io/
+- 📝 **Preprints record:** https://doi.org/10.20944/preprints202606.1403.v1
 - 📄 **Survey PDF:** https://world-action-models.github.io/wam-survey-nus.pdf
 
 ## License
