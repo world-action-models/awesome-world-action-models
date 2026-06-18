@@ -1,18 +1,6 @@
 <div align="center">
 
-<h1>Awesome World Action Models</h1>
-
-<p>
-  <a href="https://awesome.re"><img src="assets/badges/awesome.svg" alt="Awesome"></a>
-  <img src="assets/badges/papers.svg" alt="109 papers">
-  <img src="assets/badges/prs.svg" alt="PRs welcome">
-  <img src="assets/badges/maintained.svg" alt="Maintained">
-</p>
-
-<p><strong>A curated list of papers on World Action Models (WAMs).</strong></p>
-<p>WAMs predict a future signal and keep that prediction in the path that produces, scores, trains, or checks actions.</p>
-
-<h2>World Action Models: A Survey</h2>
+<h1>World Action Models: A Survey</h1>
 <p><em>Dream Less, Act More</em></p>
 
 <p><strong>Qiuhong Shen, Shihua Zhang, Yue Liao, Qi Li, Zhenxiong Tan, Shizun Wang,<br>Shuicheng Yan, Xinchao Wang</strong></p>
@@ -24,12 +12,24 @@
 </p>
 
 <p>
-  <a href="https://doi.org/10.20944/preprints202606.1403.v1"><img src="assets/badges/preprints.svg" alt="Preprints DOI"></a>
+  <a href="https://www.preprints.org/manuscript/202606.1403/v1"><img src="assets/badges/preprints.svg" alt="Read on Preprints"></a>
 </p>
 
 </div>
 
 ---
+
+## Catalog
+
+- [Survey Highlights](#survey-highlights)
+- [Timeline At A Glance](#timeline-at-a-glance)
+- [How To Use This List](#how-to-use-this-list)
+- [Render-and-Decode](#render-and-decode) (58)
+- [Latent-Only](#latent-only) (38)
+- [Video-Generation-Free](#video-generation-free) (13)
+- **[Contributing](#contributing) — add or update a WAM paper**
+- [Citation](#citation)
+- [Related Resources](#related-resources)
 
 ## Survey Highlights
 
@@ -67,18 +67,6 @@ Papers are grouped by the survey's three families and listed by first arXiv mont
 | [Latent-Only](#latent-only) | 38 | A hidden future representation, such as denoising features, teacher embeddings, flow, masks, or value maps. |
 | [Video-Generation-Free](#video-generation-free) | 13 | A non-video predictive signal from an LLM, VLM, diffusion policy, JEPA / DINO model, audio model, or geometric predictor. |
 | **Total** | **109** | ⚡ 27 papers carry an explicit efficiency move |
-
-**Contents**
-
-- [Timeline At A Glance](#timeline-at-a-glance)
-- [Render-and-Decode](#render-and-decode) (58)
-- [Latent-Only](#latent-only) (38)
-- [Video-Generation-Free](#video-generation-free) (13)
-- [Contributing](#contributing)
-- [Citation](#citation)
-- [Related Resources](#related-resources)
-
----
 
 ## Render-and-Decode
 
@@ -248,7 +236,7 @@ If this list or the survey helps your research, please consider citing:
 ```bibtex
 @article{202606.1403,
 	doi = {10.20944/preprints202606.1403.v1},
-	url = {https://doi.org/10.20944/preprints202606.1403.v1},
+	url = {https://www.preprints.org/manuscript/202606.1403/v1},
 	year = 2026,
 	month = {June},
 	publisher = {Preprints},
@@ -261,7 +249,7 @@ If this list or the survey helps your research, please consider citing:
 ## Related Resources
 
 - 🌐 **Survey homepage & interactive paper explorer:** https://world-action-models.github.io/
-- 📝 **Preprints record:** https://doi.org/10.20944/preprints202606.1403.v1
+- 📝 **Preprints record:** https://www.preprints.org/manuscript/202606.1403/v1
 - 📄 **Survey PDF:** https://world-action-models.github.io/wam-survey-nus.pdf
 
 ## License
