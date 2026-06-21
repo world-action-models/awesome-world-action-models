@@ -16,12 +16,17 @@
 </p>
 
 <p>
-  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions">GitHub Discussions are open</a></strong>
+  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions">GitHub Discussions</a></strong>
+  ·
+  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions/2">WeChat group</a></strong>
 </p>
 
 </div>
 
 ---
+
+> [!IMPORTANT]
+> **Community channels are open.** Use [GitHub Discussions](https://github.com/world-action-models/awesome-world-action-models/discussions) for paper suggestions, taxonomy questions, and updates. Join the [WAM Survey WeChat group](https://github.com/world-action-models/awesome-world-action-models/discussions/2) through the QR-code thread.
 
 ## Catalog
 
@@ -38,10 +43,12 @@
 
 ## Community Discussions
 
-We have opened GitHub Discussions for questions, paper suggestions, taxonomy placement, and community updates.
+We have opened two community channels for WAM survey readers and paper-list contributors.
 
-- **General discussion:** https://github.com/world-action-models/awesome-world-action-models/discussions
-- **WeChat group:** https://github.com/world-action-models/awesome-world-action-models/discussions/2
+- **GitHub Discussions:** ask questions, suggest papers, discuss taxonomy placement, and propose paper-list updates.
+  https://github.com/world-action-models/awesome-world-action-models/discussions
+- **WeChat group:** scan the QR code in the discussion thread to join the WAM Survey WeChat community.
+  https://github.com/world-action-models/awesome-world-action-models/discussions/2
 
 ## Survey Highlights
 
