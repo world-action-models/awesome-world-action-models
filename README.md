@@ -15,12 +15,19 @@
   <a href="https://www.preprints.org/manuscript/202606.1403/v1"><img src="assets/badges/preprints.svg" alt="Read on Preprints"></a>
 </p>
 
+<p>
+  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions/1">GitHub Discussions are open</a></strong>
+  ·
+  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions/2">Join the WeChat group</a></strong>
+</p>
+
 </div>
 
 ---
 
 ## Catalog
 
+- **[Community Discussions](#community-discussions)**
 - [Survey Highlights](#survey-highlights)
 - [Timeline At A Glance](#timeline-at-a-glance)
 - [How To Use This List](#how-to-use-this-list)
@@ -30,6 +37,13 @@
 - **[Contributing](#contributing) — add or update a WAM paper**
 - [Citation](#citation)
 - [Related Resources](#related-resources)
+
+## Community Discussions
+
+We have opened GitHub Discussions for questions, paper suggestions, taxonomy placement, and community updates.
+
+- **General discussion:** https://github.com/world-action-models/awesome-world-action-models/discussions/1
+- **WeChat group:** https://github.com/world-action-models/awesome-world-action-models/discussions/2
 
 ## Survey Highlights
 
