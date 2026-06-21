@@ -16,9 +16,7 @@
 </p>
 
 <p>
-  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions/1">GitHub Discussions are open</a></strong>
-  ·
-  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions/2">Join the WeChat group</a></strong>
+  <strong><a href="https://github.com/world-action-models/awesome-world-action-models/discussions">GitHub Discussions are open</a></strong>
 </p>
 
 </div>
@@ -42,7 +40,7 @@
 
 We have opened GitHub Discussions for questions, paper suggestions, taxonomy placement, and community updates.
 
-- **General discussion:** https://github.com/world-action-models/awesome-world-action-models/discussions/1
+- **General discussion:** https://github.com/world-action-models/awesome-world-action-models/discussions
 - **WeChat group:** https://github.com/world-action-models/awesome-world-action-models/discussions/2
 
 ## Survey Highlights
