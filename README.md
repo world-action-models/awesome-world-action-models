@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://world-action-models.github.io/"><img src="assets/badges/homepage-large.svg" alt="Open the project homepage" height="48"></a>
-  <a href="https://world-action-models.github.io/wam-survey-nus.pdf"><img src="assets/badges/pdf-large.svg" alt="Read the survey PDF" height="48"></a>
+  <a href="https://arxiv.org/pdf/2606.20781"><img src="assets/badges/pdf-large.svg" alt="Read the survey PDF" height="48"></a>
 </p>
 
 <p>
@@ -268,7 +268,7 @@ If this list or the survey helps your research, please consider citing:
 
 - 🌐 **Survey homepage & interactive paper explorer:** https://world-action-models.github.io/
 - 📝 **arXiv preprint:** https://arxiv.org/abs/2606.20781
-- 📄 **Survey PDF:** https://world-action-models.github.io/wam-survey-nus.pdf
+- 📄 **Survey PDF:** https://arxiv.org/pdf/2606.20781
 
 ## License
 
