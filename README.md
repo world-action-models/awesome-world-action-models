@@ -253,7 +253,7 @@ Drop the `⚡` unless the paper makes an explicit efficiency move. Keep the TL;D
 If this list or the survey helps your research, please consider citing:
 
 ```bibtex
-@misc{shen2026worldactionmodelssurvey,
+@misc{wam-survey-nus,
       title={World Action Models: A Survey},
       author={Qiuhong Shen and Shihua Zhang and Yue Liao and Qi Li and Zhenxiong Tan and Shizun Wang and Shuicheng Yan and Xinchao Wang},
       year={2026},
