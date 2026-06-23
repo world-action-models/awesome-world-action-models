@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  <a href="https://www.preprints.org/manuscript/202606.1403/v1"><img src="assets/badges/preprints.svg" alt="Read on Preprints"></a>
+  <a href="https://arxiv.org/abs/2606.20781"><img src="assets/badges/arxiv.svg" alt="Read on arXiv"></a>
 </p>
 
 <p>
@@ -253,22 +253,21 @@ Drop the `⚡` unless the paper makes an explicit efficiency move. Keep the TL;D
 If this list or the survey helps your research, please consider citing:
 
 ```bibtex
-@article{202606.1403,
-	doi = {10.20944/preprints202606.1403.v1},
-	url = {https://www.preprints.org/manuscript/202606.1403/v1},
-	year = 2026,
-	month = {June},
-	publisher = {Preprints},
-	author = {Qiuhong Shen and Shihua Zhang and Yue Liao and Qi Li and Zhenxiong Tan and Shizun Wang and Shuicheng Yan and Xinchao Wang},
-	title = {World Action Models: A Survey},
-	journal = {Preprints}
+@misc{shen2026worldactionmodelssurvey,
+      title={World Action Models: A Survey},
+      author={Qiuhong Shen and Shihua Zhang and Yue Liao and Qi Li and Zhenxiong Tan and Shizun Wang and Shuicheng Yan and Xinchao Wang},
+      year={2026},
+      eprint={2606.20781},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/pdf/2606.20781},
 }
 ```
 
 ## Related Resources
 
 - 🌐 **Survey homepage & interactive paper explorer:** https://world-action-models.github.io/
-- 📝 **Preprints record:** https://www.preprints.org/manuscript/202606.1403/v1
+- 📝 **arXiv preprint:** https://arxiv.org/abs/2606.20781
 - 📄 **Survey PDF:** https://world-action-models.github.io/wam-survey-nus.pdf
 
 ## License

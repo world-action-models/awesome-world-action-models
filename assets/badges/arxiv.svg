@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="121" height="20" role="img" aria-label="arXiv: coming soon">
-  <title>arXiv: coming soon</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="20" role="img" aria-label="arXiv: 2606.20781">
+  <title>arXiv: 2606.20781</title>
   <linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
   <clipPath id="r"><rect width="121" height="20" rx="3" fill="#fff"/></clipPath>
   <g clip-path="url(#r)">
     <rect width="39" height="20" fill="#555"/>
-    <rect x="39" width="82" height="20" fill="#9f9f9f"/>
+    <rect x="39" width="82" height="20" fill="#b31b1b"/>
     <rect width="121" height="20" fill="url(#s)"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="110" transform="scale(.1)">
     <text x="195" y="150" fill="#010101" fill-opacity=".3">arXiv</text>
     <text x="195" y="140">arXiv</text>
-    <text x="800" y="150" fill="#010101" fill-opacity=".3">coming soon</text>
-    <text x="800" y="140">coming soon</text>
+    <text x="800" y="150" fill="#010101" fill-opacity=".3">2606.20781</text>
+    <text x="800" y="140">2606.20781</text>
   </g>
 </svg>
