@@ -83,9 +83,9 @@ Papers are grouped by the survey's three families and listed by first arXiv mont
 | Family | Papers | What it predicts |
 |:---|:---:|:---|
 | [Render-and-Decode](#render-and-decode) | 58 | A visible or rendered future, such as RGB video, RGB-D, or multi-view frames. |
-| [Latent-Only](#latent-only) | 38 | A hidden future representation, such as denoising features, teacher embeddings, flow, masks, or value maps. |
-| [Video-Generation-Free](#video-generation-free) | 13 | A non-video predictive signal from an LLM, VLM, diffusion policy, JEPA / DINO model, audio model, or geometric predictor. |
-| **Total** | **109** | ⚡ 27 papers carry an explicit efficiency move |
+| [Latent-Only](#latent-only) | 39 | A hidden future representation, such as denoising features, teacher embeddings, flow, masks, or value maps. |
+| [Video-Generation-Free](#video-generation-free) | 14 | A non-video predictive signal from an LLM, VLM, diffusion policy, JEPA / DINO model, audio model, or geometric predictor. |
+| **Total** | **111** | ⚡ 27 papers carry an explicit efficiency move |
 
 ## Render-and-Decode
 
@@ -221,6 +221,7 @@ These methods do not put a video generator in the loop. The useful future signal
 | 2026-03 | [Dreaming the Unseen: World Model-regularized Diffusion Policy for Out-of-Distribution Robustness (DDP)](https://arxiv.org/abs/2603.21017) | Shared PointNet+MLP 3D encoder + 1D U-Net Diffusion Policy + 1D U-Net Diffusion World Model | Feature (teacher) | Dream Diffusion Policy co-trains a diffusion policy and a diffusion world model through one shared 3D encoder, using real-imagination latent discrepancy to detect out-of-distribution events and switching to autoregressive latent imagination so the agent can keep acting when the camera stream is corrupted. |
 | 2026-05 | [ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models (ALAM)](https://arxiv.org/abs/2605.10819) | ViT relational encoder + PaliGemma-2B + Gemma-300M flow-matching expert | Feature (VLM token) | ALAM regularizes latent action codes from action-free video with composition and reversal constraints over frame triplets, then co-generates these algebraically consistent transitions with robot actions via joint flow matching on a PaliGemma backbone. |
 | 2026-05 | [Feedback World Model Enables Precise Guidance of Diffusion Policy (Feedback-WM)](https://arxiv.org/abs/2605.15705) | lightweight latent transition model plus observer-style feedback head guiding a diffusion policy | Feature (teacher) | Feedback World Model closes the loop between latent prediction and observation at inference, using an observer-style feedback gain plus counterfactual-variance reweighting to steer diffusion policy denoising under distribution shift, cutting latent prediction MSE by up to 76 percent without retraining. |
+| 2026-10 | [UNITAS: A 3D-Native World Action Model for Embodied Manipulation (UNITAS)](http://arxiv.org/abs/2610.12099) | Florence-2-large + Mixture-of-Transformers point-dynamics and action experts | Geometric | Predicts robot/hand action flow and action-conditioned scene flow as point trajectories in a shared metric 3D frame, with a coupled expert generating executable action chunks. |
 
 ---
 
